@@ -46,7 +46,7 @@ if (isset($_POST['btnIniciarSesion'])) {
             }
         } else {
             echo '<script type="text/javascript">
-                window.alert("Usuario o Contraseña Incorrectos");
+                window.alert("Usuario y Contraseña Incorrectos");
                 window.location.href="login.html";
             </script>';
             return false;
